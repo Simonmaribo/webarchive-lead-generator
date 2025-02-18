@@ -1,21 +1,13 @@
 {
-    "name": "website-age-analyzer",
+    "name": "webarchive-change-detector",
     "version": "1.0.0",
-    "description": "Tool to analyze website age and changes using Wayback Machine API",
+    "description": "A tool to detect changes in a website using the Wayback Machine over a period of time.",
     "main": "dist/index.js",
     "scripts": {
         "start": "node dist/index.js",
-        "dev": "ts-node-dev --respawn src/index.ts",
         "build": "tsc",
         "lint": "eslint src/**/*.ts",
-        "test": "jest",
-        "watch": "tsc -w"
     },
-    "keywords": [
-        "wayback-machine",
-        "web-scraping",
-        "website-analysis"
-    ],
     "author": "",
     "license": "ISC",
     "dependencies": {
@@ -32,9 +24,6 @@
         "@typescript-eslint/eslint-plugin": "^6.21.0",
         "@typescript-eslint/parser": "^6.21.0",
         "eslint": "^8.56.0",
-        "jest": "^29.7.0",
-        "ts-jest": "^29.1.2",
-        "ts-node-dev": "^2.0.0",
         "typescript": "^5.3.3"
     }
 }
